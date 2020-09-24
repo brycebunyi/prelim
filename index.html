@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prelim Exam</title>
+
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Poppins">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed">
+	<link rel="stylesheet" type="text/css" href="design.css">
+
+</head>
+<body>
+
+	<div>
+	<h1>Survey Form</h1>
+	<hr>
+	</div>
+
+	<form action="mailto:giofriginal26@gmail.com"  method="post" enctype="text/plain">	
+	
+	<div><h2> Answer the following questions correctly. </h2>
+
+	<label>  Name   </label>
+					
+		<input type="text" name="Name: " placeholder="Enter your name" value=""> 
+
+	<label>  Email  </label>
+	
+		<input type="email" name="Email:" placeholder="Enter your email address" value=""> 
+
+	<label> On a scale of 1-10, how good was it? </label>
+
+		<input type="number" name="Scale " placeholder="Enter a number between 1 and 10" value=""> 
+
+	<label> Where did it happen?  </label>
+
+		<input list="list" name="options" placeholder="" value="At home"> 
+			<datalist id="list">
+    		<option value="At home">
+			</datalist>
+
+	<label> At what time of day did it happen?  </label>
+
+		<input type="radio" name=""> Morning <br>
+		<input type="radio" name=""> Afternoon <br>
+		<input type="radio" name=""> Evening <br>
+	
+	<label> What emotions did you experience? <br> (Select all that apply) </label>
+
+		<input type="checkbox" name=""> Excited <br>
+		<input type="checkbox" name=""> Humbled <br>
+		<input type="checkbox" name=""> Elated <br>
+		<input type="checkbox" name=""> Loved <br>
+		<input type="checkbox" name=""> Enthusiastic <br>
+
+
+
+	<label> Please describe your positive experience. </label>
+
+		<textarea placeholder="Enter your experience here." cols="20" rows="5"> </textarea>
+
+	
+	<input type="submit">
+			
+				</form>
+		</div>
+
+</body>
+</html>
+

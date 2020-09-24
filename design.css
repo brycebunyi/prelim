@@ -1,0 +1,30 @@
+body{
+    background-color:  #a9d7e9;
+}
+.container {
+background-color: #f3f3f3;
+border-radius: 20px;
+}
+input[type=text], select, textarea {
+    width: 20%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    margin-left: 15px;
+  }
+  label{
+     margin-left: 175px;
+  }
+  p{
+      font-size: x-large;
+  }
+  .space{
+      margin-left: 10px;
+  }
+  .space2{
+      margin-left: 0px;
+  }
+  .space3{
+    margin-left: 100px;
+}
